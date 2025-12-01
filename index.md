@@ -10,11 +10,17 @@ layout: default
     line-height: 1.6;
   }
 
+  .cover-photo {
+    width: 100%;
+    background: #000; /* utile si l'image ne remplit pas toute la largeur en hauteur */
+    display: flex;
+    justify-content: center;
+  }
+
   .cover-photo img {
     width: 100%;
-    height: 380px;           /* cover plus haute */
-    object-fit: cover;       /* on découpe dans l'image */
-    object-position: center; /* tu peux mettre 'top' ou '50% 30%' si tu veux plus haut */
+    height: auto;         /* hauteur automatique */
+    object-fit: contain;  /* montre toute l'image sans zoomer */
     display: block;
   }
 
