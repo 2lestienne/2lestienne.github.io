@@ -4,16 +4,19 @@ description: "Climate & Macroeconomics Economist – Macroprudential Policy, Cli
 layout: default
 ---
 
-# Etienne de L'Estoile
+<nav>
+  <a href="/">About me</a> ·
+  <a href="/research">Research</a> ·
+  <a href="/publications">Publications</a> ·
+  <a href="/outreach">Outreach</a>
+</nav>
+---
 
+## About Me
 **Climate & Macroeconomics Economist**  
 Macroprudential Policy • Climate Risk • Financial Stability • Data & Modelling  
 
 📍 Paris, France · ✉️ [etiennedelestoile@gmail.com](mailto:etiennedelestoile@gmail.com)
-
----
-
-## About Me
 
 I am an Economist in the Macroprudential Policy and Financial Stability Division at the Banque de France and hold a PhD in Economics from Paris 1 Panthéon-Sorbonne.  
 My work focuses on the intersection of **climate risks, macro-financial stability, and data-intensive modelling**.
@@ -51,7 +54,14 @@ I develop empirical tools to quantify the exposure of firms, banks, and economic
   Add whatever you want here.
 
 ---
+## Outreach & Dissemination
 
+I am committed to making research accessible:
+
+- Blog and outreach articles on climate economics and financial stability  
+- Participation in roundtables and public discussions  
+- Explanatory videos and educational content  
+- Former president of *Regards Croisés sur l'Économie*, a journal dedicated to research dissemination
 ## Selected Research Projects
 
 ### Commercial Property Price Indices for France
@@ -82,16 +92,6 @@ At the Banque de France, I contribute to the design of macroprudential tools and
 
 I build modelling frameworks to support policy analysis and regulatory decisions.
 
----
-
-## Outreach & Dissemination
-
-I am committed to making research accessible:
-
-- Blog and outreach articles on climate economics and financial stability  
-- Participation in roundtables and public discussions  
-- Explanatory videos and educational content  
-- President of *Regards Croisés sur l'Économie*, a journal dedicated to research dissemination, where I coordinated a multidisciplinary editorial team
 
 ---
 
