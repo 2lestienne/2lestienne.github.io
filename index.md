@@ -58,29 +58,31 @@ layout: default
   height: auto;            /* on garde les proportions du tableau */
   display: block;
 }
-
 .top-bar {
   position: absolute;
   top: 0;
-  left: 0;              /* plus de centering via left:50% */
-  width: 100%;          /* full width */
+  left: 50%;
+  right: 50%;
+  width: 100vw;              /* prend toute la largeur de la fenêtre */
+  margin-left: -50vw;        /* sort du wrapper à gauche */
+  margin-right: -50vw;       /* sort du wrapper à droite */
   z-index: 30;
 
   background: rgba(246,239,230,0.92);
   border-bottom: 1px solid #e0d4c5;
   box-sizing: border-box;
-  padding: 0.6rem 0;     /* padding vertical seulement */
+  padding: 0.6rem 0;         /* vertical seulement */
 }
 
-/* CONTENEUR INTERNE QUI CENTRE LE CONTENU */
 .top-bar-inner {
-  max-width: 1200px;     /* largeur max du contenu */
-  margin: 0 auto;        /* centre le contenu */
-  padding: 0 1.2rem;     /* padding horizontal */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 
 
   /* Nom */
@@ -188,7 +190,6 @@ layout: default
 
       <nav class="site-nav">
         <a href="/">About me</a>
-        <a href="/bio">Bio</a>
         <a href="/research">Research</a>
         <a href="/outreach">Outreach</a>
       </nav>
