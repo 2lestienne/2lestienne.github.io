@@ -1,7 +1,4 @@
----
-title: Vita
-layout: default
----
+
 
 <style>
   html, body {
