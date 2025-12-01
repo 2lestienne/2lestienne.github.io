@@ -42,6 +42,7 @@ layout: default
     background: #2b1a12;           /* marron foncé en fond derrière l’image */
     left: 50%;
     right: 50%;
+     margin-top: -20vw;
     margin-left: -50vw;
     margin-right: -50vw;
   }
