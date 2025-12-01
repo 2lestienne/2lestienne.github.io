@@ -13,8 +13,8 @@ layout: default
   body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     line-height: 1.6;
-    background: #f5eee6;          /* marron très clair / beige rosé */
-    color: #222;
+    background:#f6efe6;          /* marron très clair / beige rosé */
+    color: #222222;
   }
 
   .cover-photo {
@@ -72,7 +72,7 @@ layout: default
   .profile-name {
     font-size: 1.6rem;
     font-weight: 600;
-    color: #4b2e1a;                /* marron un peu plus soutenu pour le nom */
+    color:#5d3a23;                /* marron un peu plus soutenu pour le nom */
   }
 
   .profile-text {
@@ -100,7 +100,7 @@ layout: default
   nav.site-nav a {
     margin-right: 1rem;
     text-decoration: none;
-    color: #4b2e1a;                /* liens marron foncé */
+    color: #5d3a23;                /* liens marron foncé */
     font-weight: 500;
   }
 
