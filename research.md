@@ -18,7 +18,7 @@ layout: default
 ### Working Papers
 
 - **<a href="https://www.banque-france.fr/en/publications-and-statistics/publications/who-takes-land-quantifying-use-built-land-french-economic-sectors-assess-their-vulnerability-no-net" target="_blank">Who Takes the Land? Quantifying the Use of Built-Up Land by French Economic Sectors to Assess Their Vulnerability to the ‘No Net Land Take’ Policy</a>** – With <a href="https://www.banque-france.fr/fr/mathilde-salin" target="_blank">Mathilde Salin</a>
-- **<a href="https://www.banque-france.fr/en/publications-and-statistics/publications/who-takes-land-quantifying-use-built-land-french-economic-sectors-assess-their-vulnerability-no-net" target="_blank">Container or Content: from flood hazards on firms’ physical assets to credit risks and pricing</a>** – With <a href="https://www.banque-france.fr/fr/lisa-kerdelhue" target="_blank">Lisa Kerdelhué</a> and Thierry Verdier
+- **<a href="https://www.banque-france.fr/en/publications-and-statistics/publications/who-takes-land-quantifying-use-built-land-french-economic-sectors-assess-their-vulnerability-no-net" target="_blank">Container or Content: from flood hazards on firms’ physical assets to credit risks</a>** – With <a href="https://www.banque-france.fr/fr/lisa-kerdelhue" target="_blank">Lisa Kerdelhué</a> and Thierry Verdier
 
 
 
