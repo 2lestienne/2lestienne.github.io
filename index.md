@@ -15,7 +15,7 @@ layout: default
 <img src="photo_jeco.jpg" alt="Etienne de L'Estoile" style="max-width:160px;border-radius:50%;margin-bottom:1rem;">
 
 **Climate & Macroeconomics Economist**  
-Macroprudential Policy • Climate Risk • Financial Stability • Data & Modelling  
+Macroprudential Policy • Climate Risk • Financial Stability • Real Estate
 
 📍 Paris, France · ✉️ [etiennedelestoile@gmail.com](mailto:etiennedelestoile@gmail.com)
 
