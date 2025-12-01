@@ -26,7 +26,7 @@ layout: default
   </div>
 
   <div style="flex: 0 0 200px;">
-    <img src="/assets/etienne.jpg" alt="Etienne de L'Estoile" style="width: 200px; height: 200px; object-fit: cover;">
+    <img src="photo_jeco.jpg" alt="Etienne de L'Estoile" style="width: 200px; height: 200px; object-fit: cover;">
   </div>
 
 </div>
