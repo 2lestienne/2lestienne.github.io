@@ -1,79 +1,107 @@
+---
+title: "Etienne de L'Estoile"
+description: "Climate & Macrofinance Economist – Financial Stability, Climate Risk, Real Estate"
+layout: default
+---
+
 <style>
-  /* COVER : prendre plus de l'image (dézoom) mais plein écran */
-  .cover-photo {
-    width: 100%;
-    height: 60vh;              /* hauteur = ~ 2/3 écran */
-    overflow: hidden;
-    position: relative;
-    background: #000;
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
   }
 
-  .cover-photo img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;         /* style LinkedIn (mais zoom léger) */
-    object-position: center;
-    opacity: 0.95;             /* léger atténuation LinkedIn */
+.cover-photo {
+  width: 100%;
+  height: 66vh;
+  overflow: hidden;
+  background: #000;
+}
+
+.cover-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;   /* <-- dézoom */
+  object-position: center;
+  display: block;
+}
+  .header-description {
+    max-width: 900px;
+    margin: 1.2rem auto 1.5rem auto;
+    padding: 0 1rem;
+    font-size: 1rem;
   }
 
-  /* PROFILE PHOTO À GAUCHE, AU-DESSUS DE LA COVER */
-  .profile-block {
-    position: absolute;
-    left: 40px;                /* marge gauche comme LinkedIn */
-    bottom: -90px;             /* chevauchement vers le bas */
-    display: flex;
+  .header-description strong {
+    font-size: 1.05rem;
+  }
+
+  .profile-container {
+    max-width: 900px;
+    margin: -70px auto 1.5rem auto; /* fait remonter la photo sur la cover */
+    padding: 0 1rem;
+  }
+
+  .profile-photo-block {
+    display: inline-flex;
     flex-direction: column;
-    align-items: flex-start;   /* TOUT À GAUCHE */
-    z-index: 10;
+    align-items: flex-start; /* photo + nom alignés à gauche */
+    gap: 0.4rem;
   }
 
-  .profile-photo img {
-    width: 170px;
-    height: 170px;
+  .profile-photo-block img {
+    width: 180px;
+    height: 180px;
     object-fit: cover;
-    border-radius: 6px;        /* carré arrondi */
+    border-radius: 6px;
     border: 4px solid white;
-    box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
   }
 
   .profile-name {
-    margin-top: 10px;
-    font-size: 1.7rem;
-    font-weight: 700;
-    color: #111;
+    font-size: 1.4rem;
+    font-weight: 600;
   }
 
-  /* DESCRIPTION : SOUS LA COVER, ALIGNÉE SUR LA COLONNE DE GAUCHE */
-  .profile-description {
+  nav.site-nav {
     max-width: 900px;
-    margin: 120px 0 2rem 40px; /* aligné à 40px comme la photo */
-    font-size: 1.05rem;
-    line-height: 1.5;
+    margin: 1.5rem auto 2rem auto;
+    padding: 0 1rem;
+  }
+
+  nav.site-nav a {
+    margin-right: 1rem;
+    text-decoration: none;
+  }
+
+  nav.site-nav a:hover {
+    text-decoration: underline;
+  }
+
+  .content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1rem 3rem 1rem;
   }
 </style>
 
-<!-- COVER -->
 <div class="cover-photo">
   <img src="ciudad_garcia.jpg" alt="Cover image">
 </div>
 
-<!-- PROFILE BLOCK (PHOTO + NOM) -->
-<div class="profile-block">
-  <div class="profile-photo">
-    <img src="photo_jeco.jpg" alt="Etienne de L'Estoile">
-  </div>
-  <div class="profile-name">Etienne de L'Estoile</div>
-</div>
-
-<!-- DESCRIPTION (sous la cover) -->
-<div class="profile-description">
-  <p><strong>Climate & Macroeconomics Economist</strong><br>
-     Macroprudential Policy and Financial Stability Division, Banque de France<br>
-     PhD in Economics, Paris 1 Panthéon-Sorbonne
+<div class="header-description">
+  <p>
+    <strong>Climate & Macroeconomics Economist</strong><br>
+    Macroprudential Policy and Financial Stability Division, Banque de France<br>
+    PhD in Economics, Paris 1 Panthéon-Sorbonne
   </p>
 </div>
 
-
+<div class="profile-container">
+  <div class="profile-photo-block">
+    <img src="photo_jeco.jpg" alt="Etienne de L'Estoile">
+    <div class="profile-name">Etienne de L'Estoile</div>
+  </div>
+</div>
 
 <nav class="site-nav">
   <a href="/">Home</a>
