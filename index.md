@@ -12,7 +12,7 @@ layout: default
 ---
 
 ## About Me
-<img src="/photo_jeco.jpg" alt="Etienne de L'Estoile" style="max-width:160px;border-radius:50%;margin-bottom:1rem;">
+<img src="/photo_jeco.jpg" alt="Etienne de L'Estoile" style="max-width:140px;border-radius:50%;margin-bottom:1rem;">
 
 **Climate & Macroeconomics Economist**  
 Macroprudential Policy • Climate Risk • Financial Stability • Data & Modelling  
