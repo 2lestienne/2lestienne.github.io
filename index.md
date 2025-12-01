@@ -73,7 +73,7 @@ layout: default
 </style>
 
 <div class="cover-photo">
-  <img src="torres_garcia_ciudad.jpg" alt="Cover image">
+  <img src="ciudad_garcia.jpg" alt="Cover image">
 </div>
 
 <div class="profile-container">
