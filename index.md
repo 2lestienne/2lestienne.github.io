@@ -10,18 +10,27 @@ layout: default
     line-height: 1.6;
   }
 
-.cover-photo {
-  width: 100vw;                 /* largeur de la fenêtre */
-  height: 66vh;                 /* 2/3 de la hauteur de l'écran */
-  overflow: hidden;
-  background: #000;
+  .profile-container {
   position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;           /* permet de sortir du wrapper centré */
-  margin-right: -50vw;
+  z-index: 10;              /* profil au-dessus de la cover */
+  max-width: 900px;
+  margin: -70px auto 1.5rem auto;
+  padding: 0 1rem;
 }
 
+  
+.cover-photo {
+  position: relative;
+  z-index: 1;               /* cover derrière */
+  width: 100vw;
+  height: 66vh;
+  overflow: hidden;
+  background: #000;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
 
   .cover-photo img {
     width: 100%;
