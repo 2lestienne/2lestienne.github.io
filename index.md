@@ -135,6 +135,11 @@ layout: default
     }
   }
 </style>
+<nav class="site-nav">
+  <a href="/">Home</a>
+  <a href="/research">Research</a>
+  <a href="/outreach">Outreach</a>
+</nav>
 
 <div class="cover-photo">
   <img src="ciudad_garcia.jpg" alt="Cover image">
@@ -156,11 +161,7 @@ layout: default
   </div>
 </div>
 
-<nav class="site-nav">
-  <a href="/">Home</a>
-  <a href="/research">Research</a>
-  <a href="/outreach">Outreach</a>
-</nav>
+
 
 <div class="content" markdown="1">
 
