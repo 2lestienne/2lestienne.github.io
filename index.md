@@ -12,6 +12,8 @@ layout: default
 ---
 
 ## About Me
+<img src="/assets/etienne.jpg" alt="Etienne de L'Estoile" style="max-width:160px;border-radius:50%;margin-bottom:1rem;">
+
 **Climate & Macroeconomics Economist**  
 Macroprudential Policy • Climate Risk • Financial Stability • Data & Modelling  
 
@@ -42,6 +44,16 @@ I am committed to making research accessible:
 - Explanatory videos and educational content  
 - Former president of *Regards Croisés sur l'Économie*, a journal dedicated to research dissemination
 
+
+---
+## Outreach & Dissemination
+
+I am committed to making research accessible:
+
+- Blog and outreach articles on climate economics and financial stability  
+- Participation in roundtables and public discussions  
+- Explanatory videos and educational content  
+- Former president of *Regards Croisés sur l'Économie*, a journal dedicated to research dissemination
 
 
 
