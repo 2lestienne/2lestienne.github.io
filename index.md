@@ -1,82 +1,81 @@
 <style>
-  /* COVER FULL-WIDTH, 2/3 OF SCREEN HEIGHT */
+  /* COVER = pleine largeur, 2/3 de la hauteur de l’écran */
   .cover-photo {
     width: 100%;
-    height: 66vh;                /* hauteur = 2/3 de la fenêtre */
+    height: 66vh;
     overflow: hidden;
-    position: relative;
   }
 
   .cover-photo img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;           /* on garde toute la largeur, léger zoom mais pas excessif */
-    object-position: center;     /* centré */
-    display: block;
-  }
+  width: 100%;
+  height: 100%;
+  object-fit: contain;  
+  object-position: center;
+  background: #000; /* fond noir derrière si bords */
+  display: block;
+}
 
-  /* PROFILE BLOCK (PHOTO + TEXTE) */
-  .profile-section {
-    max-width: 1100px;
-    margin: -70px auto 2rem auto; /* fait remonter la photo sur la cover */
-    padding: 0 1rem;
+
+  /* PROFILE CENTRÉ + AU-DESSUS DE LA COVER */
+  .profile-wrapper {
+    width: 100%;
     display: flex;
-    align-items: flex-start;
-    gap: 2rem;
+    justify-content: center;
+    margin-top: -90px; /* remonte la photo pour la faire chevaucher */
+    pointer-events: none; /* empêche bugs hover */
   }
 
   .profile-photo {
-    flex: 0 0 auto;
+    text-align: center;
   }
 
   .profile-photo img {
     width: 180px;
     height: 180px;
+    border-radius: 6px; /* carré arrondi */
     object-fit: cover;
-    border-radius: 6px;
-    border: 4px solid white; 
-    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+    border: 4px solid white;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.15);
+    background: white;
+    pointer-events: auto;
   }
 
-  .profile-text {
-    flex: 1;
-    padding-top: 1rem;
-  }
-
-  .profile-text .name {
+  .profile-name {
     font-size: 1.6rem;
     font-weight: 600;
-    margin-bottom: 0.3rem;
+    margin-top: 0.5rem;
+    text-align: center;
   }
 
-  .profile-text p {
-    margin: 0.2rem 0;
-    line-height: 1.5;
+  /* DESCRIPTION SOUS LA COVER */
+  .profile-description {
+    max-width: 900px;
+    margin: 1.5rem auto 2rem auto;
+    padding: 0 1rem;
+    text-align: left;
   }
 </style>
 
-<!-- COVER -->
-<div class="cover-photo">
-  <img src="ciudad_garcia.jpg" alt="Cover image">
-</div>
-
-<!-- PROFILE SECTION -->
-<div class="profile-section">
-
-  <!-- PHOTO DE PROFIL -->
+<!-- PHOTO DE PROFIL AU-DESSUS DE LA COVER -->
+<div class="profile-wrapper">
   <div class="profile-photo">
-    <img src="photo_jeco.jpg" alt="Etienne de L'Estoile">
+    <img src="photo_jeco.jpg" alt="profile photo">
+    <div class="profile-name">Etienne de L'Estoile</div>
   </div>
-
-  <!-- TEXTE À DROITE DE LA PHOTO -->
-  <div class="profile-text">
-    <div class="name">Etienne de L'Estoile</div>
-    <p><strong>Climate & Macroeconomics Economist</strong></p>
-    <p>Macroprudential Policy and Financial Stability Division, Banque de France</p>
-    <p>PhD in Economics, Paris 1 Panthéon-Sorbonne</p>
-  </div>
-
 </div>
+
+<!-- COVER EN-DESSOUS -->
+<div class="cover-photo">
+  <img src="torres_garcia_ciudad.jpg" alt="Cover image">
+</div>
+
+<!-- DESCRIPTION SOUS LA COVER -->
+<div class="profile-description">
+  <p><strong>Climate & Macroeconomics Economist</strong></p>
+  <p>Macroprudential Policy and Financial Stability Division, Banque de France</p>
+  <p>PhD in Economics, Paris 1 Panthéon-Sorbonne</p>
+</div>
+
 
 <nav class="site-nav">
   <a href="/">Home</a>
