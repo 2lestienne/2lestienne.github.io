@@ -1,80 +1,78 @@
 <style>
-  /* COVER = pleine largeur, 2/3 de la hauteur de l’écran */
+  /* COVER : prendre plus de l'image (dézoom) mais plein écran */
   .cover-photo {
     width: 100%;
-    height: 66vh;
+    height: 60vh;              /* hauteur = ~ 2/3 écran */
     overflow: hidden;
+    position: relative;
+    background: #000;
   }
 
   .cover-photo img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;  
-  object-position: center;
-  background: #000; /* fond noir derrière si bords */
-  display: block;
-}
-
-
-  /* PROFILE CENTRÉ + AU-DESSUS DE LA COVER */
-  .profile-wrapper {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: -90px; /* remonte la photo pour la faire chevaucher */
-    pointer-events: none; /* empêche bugs hover */
+    height: 100%;
+    object-fit: cover;         /* style LinkedIn (mais zoom léger) */
+    object-position: center;
+    opacity: 0.95;             /* léger atténuation LinkedIn */
   }
 
-  .profile-photo {
-    text-align: center;
+  /* PROFILE PHOTO À GAUCHE, AU-DESSUS DE LA COVER */
+  .profile-block {
+    position: absolute;
+    left: 40px;                /* marge gauche comme LinkedIn */
+    bottom: -90px;             /* chevauchement vers le bas */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;   /* TOUT À GAUCHE */
+    z-index: 10;
   }
 
   .profile-photo img {
-    width: 180px;
-    height: 180px;
-    border-radius: 6px; /* carré arrondi */
+    width: 170px;
+    height: 170px;
     object-fit: cover;
+    border-radius: 6px;        /* carré arrondi */
     border: 4px solid white;
-    box-shadow: 0 3px 12px rgba(0,0,0,0.15);
-    background: white;
-    pointer-events: auto;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.15);
   }
 
   .profile-name {
-    font-size: 1.6rem;
-    font-weight: 600;
-    margin-top: 0.5rem;
-    text-align: center;
+    margin-top: 10px;
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #111;
   }
 
-  /* DESCRIPTION SOUS LA COVER */
+  /* DESCRIPTION : SOUS LA COVER, ALIGNÉE SUR LA COLONNE DE GAUCHE */
   .profile-description {
     max-width: 900px;
-    margin: 1.5rem auto 2rem auto;
-    padding: 0 1rem;
-    text-align: left;
+    margin: 120px 0 2rem 40px; /* aligné à 40px comme la photo */
+    font-size: 1.05rem;
+    line-height: 1.5;
   }
 </style>
 
-<!-- PHOTO DE PROFIL AU-DESSUS DE LA COVER -->
-<div class="profile-wrapper">
-  <div class="profile-photo">
-    <img src="photo_jeco.jpg" alt="profile photo">
-    <div class="profile-name">Etienne de L'Estoile</div>
-  </div>
-</div>
-
-<!-- COVER EN-DESSOUS -->
+<!-- COVER -->
 <div class="cover-photo">
   <img src="ciudad_garcia.jpg" alt="Cover image">
 </div>
 
-<!-- DESCRIPTION SOUS LA COVER -->
-<div class="profile-description">
-  <p><strong>Climate & Macroeconomics Economist</strong></p>
-  <p>Macroprudential Policy and Financial Stability Division, Banque de France</p>
-  <p>PhD in Economics, Paris 1 Panthéon-Sorbonne</p>
+<!-- PROFILE BLOCK (PHOTO + NOM) -->
+<div class="profile-block">
+  <div class="profile-photo">
+    <img src="photo_jeco.jpg" alt="Etienne de L'Estoile">
+  </div>
+  <div class="profile-name">Etienne de L'Estoile</div>
 </div>
+
+<!-- DESCRIPTION (sous la cover) -->
+<div class="profile-description">
+  <p><strong>Climate & Macroeconomics Economist</strong><br>
+     Macroprudential Policy and Financial Stability Division, Banque de France<br>
+     PhD in Economics, Paris 1 Panthéon-Sorbonne
+  </p>
+</div>
+
 
 
 <nav class="site-nav">
