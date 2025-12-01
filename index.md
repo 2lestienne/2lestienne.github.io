@@ -66,7 +66,7 @@
 
 <!-- COVER EN-DESSOUS -->
 <div class="cover-photo">
-  <img src="torres_garcia_ciudad.jpg" alt="Cover image">
+  <img src="ciudad_garcia.jpg" alt="Cover image">
 </div>
 
 <!-- DESCRIPTION SOUS LA COVER -->
