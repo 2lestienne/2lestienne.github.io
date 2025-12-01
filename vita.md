@@ -1,4 +1,7 @@
-
+---
+title: Vita
+layout: default
+---
 
 <style>
   html, body {
@@ -49,12 +52,8 @@
   <a href="/outreach">Outreach</a>
 </nav>
 
-<div class="content" markdown="1">
 
----
-title: Vita
-layout: default
----
+
 
 <div class="content" markdown="1">
 
