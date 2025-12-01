@@ -5,6 +5,11 @@ layout: default
 ---
 
 <style>
+  body > *:first-child {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+  
   html, body {
     margin: 0;
     padding: 0;
