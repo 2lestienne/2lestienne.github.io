@@ -52,6 +52,47 @@ layout: default
   height: auto;            /* on garde les proportions du tableau */
   display: block;
 }
+
+   .top-bar {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 100%;
+    max-width: 1200px;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0.6rem 1.2rem;
+    background: rgba(246, 239, 230, 0.92); /* ton beige légèrement opaque */
+    border-bottom: 1px solid #e0d4c5;
+
+    z-index: 30;
+  }
+
+  /* Nom */
+  .site-name {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #5d3a23;
+    margin: 0;
+  }
+
+  /* Navigation (liens) */
+  .site-nav a {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: #5d3a23;
+    font-weight: 500;
+  }
+
+  .site-nav a:hover {
+    text-decoration: underline;
+  }
   .profile-container {
     position: relative;
     z-index: 10;                   /* profil au-dessus de la cover */
@@ -104,31 +145,7 @@ layout: default
     color: #5d3a23;                /* accent sur le titre de poste */
   }
 
-nav.site-nav {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 20;
-    width: 100%;
-    max-width: 900px;
-    box-sizing: border-box;
 
-    padding: 0.4rem 1rem 0.6rem 1rem;
-    background: rgba(246, 239, 230, 0.95); /* beige légèrement opaque */
-    border-bottom: 1px solid #e0d4c5;
-  }
-
-  nav.site-nav a {
-    margin-right: 1rem;
-    text-decoration: none;
-    color: #5d3a23;                /* liens marron foncé */
-    font-weight: 500;
-  }
-
-  nav.site-nav a:hover {
-    text-decoration: underline;
-  }
 
 .content {
   max-width: 900px;
@@ -150,15 +167,24 @@ nav.site-nav {
     }
   }
 </style>
-<nav class="site-nav">
-  <a href="/">Home</a>
-  <a href="/research">Research</a>
-  <a href="/outreach">Outreach</a>
-</nav>
+<div class="header-wrapper">
 
-<div class="cover-photo">
-  <img src="ciudad_garcia.jpg" alt="Cover image">
+  <div class="cover-photo">
+    <img src="ciudad_garcia.jpg" alt="Cover image">
+  </div>
+
+  <div class="top-bar">
+    <div class="site-name">Etienne de L'Estoile</div>
+
+    <nav class="site-nav">
+      <a href="/">About me</a>
+      <a href="/research">Research</a>
+      <a href="/outreach">Outreach</a>
+    </nav>
+  </div>
+
 </div>
+
 
 <div class="profile-container">
   <div class="profile-wrapper">
