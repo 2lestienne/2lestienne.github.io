@@ -31,7 +31,7 @@ layout: default
     position: relative;
     z-index: 1;                    /* cover derrière */
     width: 100vw;
-    height: 66vh;
+    height: 60vh;
     overflow: hidden;
     background: #2b1a12;           /* marron foncé en fond derrière l’image */
     left: 50%;
@@ -41,8 +41,8 @@ layout: default
   }
 
   .cover-photo img {
-    width: 120%;
-    height: 120%;
+    width: 100%;
+    height: 100%;
     object-fit: cover;             /* remplit le bloc */
     object-position: center;
     display: block;
@@ -118,14 +118,14 @@ layout: default
     text-decoration: underline;
   }
 
-  .content {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 0 1rem 3rem 1rem;
-    background: #fff;              /* bloc central blanc lisible sur fond beige */
-    box-shadow: 0 2px 10px rgba(0,0,0,0.04);
-    border-radius: 4px;
-  }
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1rem 3rem 1rem;
+  background: transparent;       /* laisse voir le fond du body */
+  box-shadow: none;
+  border-radius: 0;
+}
 
   @media (max-width: 600px) {
     .profile-container {
