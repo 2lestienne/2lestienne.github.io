@@ -10,19 +10,26 @@ layout: default
   <a href="/outreach">Outreach</a>
 </nav>
 ---
+# About Me
 
-## About Me
-<img src="photo_jeco.jpg" alt="Etienne de L'Estoile" style="max-width:160px;border-radius:50%;margin-bottom:1rem;">
+<div style="display: flex; align-items: flex-start; gap: 20px;">
 
-**Climate & Macroeconomics Economist**  
-Macroprudential Policy • Climate Risk • Financial Stability • Real Estate
+  <div style="flex: 1;">
+    <p>
+      I am an Economist in the Macroprudential Policy and Financial Stability Division at the Banque de France and hold a PhD in Economics from Paris 1 Panthéon-Sorbonne.
+      My work focuses on the intersection of <strong>climate risks, macro-financial stability, and data-intensive modelling</strong>.
+    </p>
 
-📍 Paris, France · ✉️ [etiennedelestoile@gmail.com](mailto:etiennedelestoile@gmail.com)
+    <p>
+      I develop empirical tools to quantify the exposure of firms, banks, and economic systems to environmental shocks, using high-resolution physical risk data, geospatial information, and granular balance-sheet microdata. My research is applied, policy-relevant, and aims to inform central banks, regulators, and institutions about emerging climate vulnerabilities.
+    </p>
+  </div>
 
-I am an Economist in the Macroprudential Policy and Financial Stability Division at the Banque de France and hold a PhD in Economics from Paris 1 Panthéon-Sorbonne.  
-My work focuses on the intersection of **climate risks, macro-financial stability, and data-intensive modelling**.
+  <div style="flex: 0 0 200px;">
+    <img src="/assets/etienne.jpg" alt="Etienne de L'Estoile" style="width: 200px; height: 200px; object-fit: cover;">
+  </div>
 
-I develop empirical tools to quantify the exposure of firms, banks, and economic systems to environmental shocks, using high-resolution physical risk data, geospatial information, and granular balance-sheet microdata. My research is applied, policy-relevant, and aims to inform central banks, regulators, and institutions about emerging climate vulnerabilities.
+</div>
 
 ---
 
