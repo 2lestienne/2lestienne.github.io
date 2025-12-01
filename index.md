@@ -4,11 +4,86 @@ description: "Climate & Macroeconomics Economist – Macroprudential Policy, Cli
 layout: default
 ---
 
-<nav>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+
+  nav.site-nav {
+    text-align: center;
+    margin: 1.5rem 0 2rem 0;
+    font-size: 0.95rem;
+    letter-spacing: 0.03em;
+  }
+
+  nav.site-nav a {
+    text-decoration: none;
+    margin: 0 0.6rem;
+  }
+
+  nav.site-nav a:hover {
+    text-decoration: underline;
+  }
+
+  .about-wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .about-text {
+    flex: 1 1 260px;
+  }
+
+  .about-photo {
+    flex: 0 0 auto;
+  }
+
+  .about-photo img {
+    max-width: 260px;        /* taille de la photo */
+    border-radius: 50%;      /* effet rond */
+    display: block;
+  }
+
+  @media (max-width: 700px) {
+    .about-wrapper {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .about-photo img {
+      max-width: 200px;
+    }
+  }
+</style>
+
+<nav class="site-nav">
   <a href="/">About me</a> ·
   <a href="/research">Research</a> ·
+  <a href="/publications">Publications</a> ·
   <a href="/outreach">Outreach</a>
 </nav>
+
+<div class="about-wrapper">
+  <div class="about-text">
+    <h1>About Me</h1>
+
+    <p>
+    I am an Economist in the Macroprudential Policy and Financial Stability Division at the Banque de France and hold a PhD in Economics from Paris 1 Panthéon-Sorbonne.
+    My work focuses on the intersection of <strong>climate risks, macro-financial stability, and data-intensive modelling</strong>.
+    </p>
+
+    <p>
+    I develop empirical tools to quantify the exposure of firms, banks, and economic systems to environmental shocks, using high-resolution physical risk data, geospatial information, and granular balance-sheet microdata. My research is applied, policy-relevant, and aims to inform central banks, regulators, and institutions about emerging climate vulnerabilities.
+    </p>
+  </div>
+
+  <div class="about-photo">
+    <img src="/assets/etienne.jpg" alt="Etienne de L'Estoile">
+  </div>
+</div>
 ---
 
 ## About Me
