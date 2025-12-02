@@ -4,9 +4,27 @@ layout: default
 ---
 
 <style>
+  /* neutralise les marges du layout Jekyll */
+  body > *:first-child {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+
   html, body {
     margin: 0;
     padding: 0;
+  }
+
+  .page-content,
+  .wrapper,
+  .site,
+  .site-main,
+  .post-content,
+  .home {
+    background: transparent !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: none !important;
   }
 
   body {
@@ -16,46 +34,80 @@ layout: default
     color: #222222;
   }
 
-  nav.site-nav {
-    max-width: 900px;
-    margin: 1.5rem auto 2rem auto;
-    padding: 0 1rem 0.5rem 1rem;
+  /* ==== même TOP BAR que sur l'index ==== */
+
+  .top-bar {
+    position: relative;              /* ici, pas au-dessus d'une cover */
+    top: 0;
+    left: 50%;
+    right: 50%;
+    width: 100vw;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    z-index: 30;
+
+    background: rgba(246,239,230,0.92);
     border-bottom: 1px solid #e0d4c5;
+    box-sizing: border-box;
+    padding: 0.6rem 0;
   }
 
-  nav.site-nav a {
-    margin-right: 1rem;
+  .top-bar-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .site-name {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #5d3a23;
+    margin: 0;
+  }
+
+  .site-nav a {
+    margin-left: 1rem;
     text-decoration: none;
     color: #5d3a23;
     font-weight: 500;
   }
 
-  nav.site-nav a:hover {
+  .site-nav a:hover {
     text-decoration: underline;
   }
 
-  .content {
+  /* ==== contenu Vita ==== */
+
+  .vita-content {
     max-width: 900px;
-    margin: 0 auto;
+    margin: 2rem auto 3rem auto;
     padding: 0 1rem 3rem 1rem;
   }
 
-  h1, h2 {
-    color: #5d3a23;
+  .vita-content h1,
+  .vita-content h2,
+  .vita-content h3 {
+    color:#5d3a23;
   }
 </style>
 
-<nav class="site-nav">
-  <a href="/">About me</a>
-  <a href="/vita">Vita</a>
-  <a href="/research">Research</a>
-  <a href="/outreach">Outreach</a>
-</nav>
+<div class="top-bar">
+  <div class="top-bar-inner">
+    <div class="site-name">Etienne de L'Estoile</div>
 
+    <nav class="site-nav">
+      <a href="/">About me</a>
+      <a href="/vita">Vita</a>
+      <a href="/research">Research</a>
+      <a href="/outreach">Outreach</a>
+    </nav>
+  </div>
+</div>
 
-
-
-<div class="content" markdown="1">
+<div class="vita-content" markdown="1">
 
 # Vita
 
