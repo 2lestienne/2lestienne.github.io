@@ -55,13 +55,14 @@ layout: default
 
 # Research
 
-## Publications & Working Papers
+## Publications 
+- **[Digital twins for bridging climate data gaps: from flood hazards to firms’ physical assets to banking risks](https://www.bis.org/ifc/publ/ifcb63_10.pdf)){:target="_blank"}** (2025) – With [Lisa Kerdelhué](https://www.banque-france.fr/fr/lisa-kerdelhue){:target="_blank"} and Thierry Verdier
 
-### Working Papers
+## Working Papers
 
-- **[Who Takes the Land? Quantifying the Use of Built-Up Land by French Economic Sectors to Assess Their Vulnerability to the ‘No Net Land Take’ Policy](https://www.banque-france.fr/en/publications-and-statistics/publications/who-takes-land-quantifying-use-built-land-french-economic-sectors-assess-their-vulnerability-no-net){:target="_blank"}** – With [Mathilde Salin](https://www.banque-france.fr/fr/mathilde-salin){:target="_blank"}
+- **[Who Takes the Land? Quantifying the Use of Built-Up Land by French Economic Sectors to Assess Their Vulnerability to the ‘No Net Land Take’ Policy](https://www.banque-france.fr/en/publications-and-statistics/publications/who-takes-land-quantifying-use-built-land-french-economic-sectors-assess-their-vulnerability-no-net){:target="_blank"}** (2024) – With [Mathilde Salin](https://www.banque-france.fr/fr/mathilde-salin){:target="_blank"}
 
-- **[Container or Content: from flood hazards on firms’ physical assets to credit risks](https://www.banque-france.fr/en/publications-and-statistics/publications/who-takes-land-quantifying-use-built-land-french-economic-sectors-assess-their-vulnerability-no-net){:target="_blank"}** – With [Lisa Kerdelhué](https://www.banque-france.fr/fr/lisa-kerdelhue){:target="_blank"} and Thierry Verdier  
+- **[Container or Content: from flood hazards on firms’ physical assets to credit risks](https://www.banque-france.fr/en/publications-and-statistics/publications/who-takes-land-quantifying-use-built-land-french-economic-sectors-assess-their-vulnerability-no-net){:target="_blank"}** (2025) – With [Lisa Kerdelhué](https://www.banque-france.fr/fr/lisa-kerdelhue){:target="_blank"} and Thierry Verdier  
 
   Development of a multi-country Digital Twin integrating physical hazard maps, firm-level financial statements, and real-estate exposures to quantify damages and solvency effects for firms and banks. Used to support macroprudential climate-risk analysis.
 
