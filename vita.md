@@ -146,7 +146,6 @@ Data scientist specializing in geospatial and administrative data
 
 ### Praemia (2018–2019)
 Economist, Real Estate Investment Strategy  
-- Development of asset-pricing models for portfolio allocation in commercial real estate
 
 ---
 
