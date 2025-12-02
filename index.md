@@ -5,6 +5,7 @@ layout: default
 ---
 
 <style>
+  /* Supprimer marges par défaut */
   body > *:first-child {
     margin-top: 0 !important;
     padding-top: 0 !important;
@@ -30,6 +31,8 @@ layout: default
     background:#f6efe6;
     color: #222222;
   }
+
+  /* ===== HEADER : COVER + TOP BAR ===== */
 
   .header-wrapper {
     position: relative;
@@ -100,20 +103,22 @@ layout: default
     text-decoration: underline;
   }
 
-  /* ====== LAYOUT DEUX COLONNES ====== */
+  /* ===== LAYOUT 2 COLONNES ===== */
 
   .main-layout {
     max-width: 900px;
-    margin: -60px auto 3rem auto;   /* remonte légèrement la zone sur la cover */
+    margin: 0 auto 3rem auto;   /* pas remonté : la sidebar seule chevauche */
     padding: 0 1rem;
     display: flex;
     gap: 2rem;
     align-items: flex-start;
   }
 
+  /* Colonne gauche */
   .sidebar {
     width: 230px;
     flex-shrink: 0;
+    margin-top: -60px;          /* chevauchement de la cover */
   }
 
   .sidebar-photo {
@@ -158,11 +163,11 @@ layout: default
     text-decoration: underline;
   }
 
-  /* Colonne de droite : About Me */
+  /* Colonne droite : About Me */
   .content {
     flex: 1;
     max-width: none;
-    margin: 40px 0 0 0;        /* commence au dernier quart environ de la photo */
+    margin: 90px 0 0 0;      /* commence plus bas que la photo */
     padding: 0 0 3rem 0;
     background: transparent;
     box-shadow: none;
@@ -175,6 +180,8 @@ layout: default
     color:#5d3a23;
   }
 
+  /* ===== Responsive ===== */
+
   @media (max-width: 800px) {
     .main-layout {
       flex-direction: column;
@@ -183,6 +190,7 @@ layout: default
 
     .sidebar {
       width: 100%;
+      margin-top: 0;            /* sur mobile, on ne chevauche plus */
       display: flex;
       gap: 1rem;
       align-items: flex-start;
