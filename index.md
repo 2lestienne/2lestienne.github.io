@@ -258,7 +258,7 @@ layout: default
 I am an Economist in the Macroprudential Policy and Financial Stability Division at the Banque de France and hold a PhD in Economics from Paris 1 Panthéon-Sorbonne.  
 My work focuses on the intersection of <strong>climate risks, macro-financial stability, and data-intensive modelling</strong>.
 
-I develop empirical tools to quantify the exposure of firms, banks, and economic systems to environmental shocks, using high-resolution physical risk data, geospatial information, and granular balance-sheet microdata. My research is applied, policy-relevant, and aims to inform central banks, regulators, and institutions about emerging climate vulnerabilities.
+I develop empirical tools to quantify the exposure of firms, banks, and economic systems to environmental shocks, using high-resolution physical risk data, geospatial information, and granular balance-sheet microdata. My research is applied, policy-relevant, and aims to inform regulators and investors about emerging climate vulnerabilities.
 
 ---
 
@@ -269,12 +269,4 @@ I develop empirical tools to quantify the exposure of firms, banks, and economic
 - Macroprudential policy & financial stability  
 - Real estate & land-use economics  
 
----
-
-## Author Webpages
-
-- <a href="https://www.banque-france.fr/fr/etienne-de-lestoile">Banque de France</a>  
-- <a href="https://shs.cairn.info/publications-de-etienne-de-lestoile--699197?lang=fr">Cairn</a>
-
-  </div>
 </div>
