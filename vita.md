@@ -163,7 +163,7 @@ Paris 1 Panthéon-Sorbonne (2020–2023)
 Courses:  
 - Financial and Monetary Economics  
 - SQL for Economists  
-- Climate Risks & Financial Stability :contentReference[oaicite:5]{index=5}
+- Climate Risks & Financial Stability 
 
 
 
