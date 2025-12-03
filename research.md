@@ -108,6 +108,26 @@ header.site-header,
   .vita-content h3 {
     color:#5d3a23;
   }
+
+  .research-image-block {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.research-image-block img {
+  width: 100%;
+  max-width: 900px;
+  border-radius: 6px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.research-image-block .caption {
+  font-size: 0.85rem;
+  color: #5d3a23;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
 </style>
 
 <div class="top-bar">
@@ -125,6 +145,14 @@ header.site-header,
 
 <div class="vita-content" markdown="1">
 # Research
+
+
+<div class="research-image-block">
+  <img src="/buildings_floods_EN.png" alt="Paris flood probability map">
+  <p class="caption">
+    Exposure of buildings to flood scenarios in central Paris (Digital Twin model).
+  </p>
+</div>
 
 ## Publications 
 - **[Digital twins for bridging climate data gaps: from flood hazards to firms’ physical assets to banking risks](https://www.bis.org/ifc/publ/ifcb63_10.pdf){:target="_blank"}** (2025) – With [Lisa Kerdelhué](https://www.banque-france.fr/fr/lisa-kerdelhue){:target="_blank"} and Thierry Verdier
