@@ -83,7 +83,7 @@ layout: default
 
 <div class="writing-content" markdown="1">
 
-## Pastiches : le Covid vu par les écrivains pour la revue Zone Critique 
+## Pastiches : le Covid vu par les écrivains (pour la revue Zone Critique)
 
 - **La Peste et le rat des champs** - La Fontaine  
   <a href="https://zone-critique.com/critiques/la-peste-et-le-rat-des-champs/" target="_blank">Lire</a>
