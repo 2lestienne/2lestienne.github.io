@@ -118,6 +118,7 @@ header.site-header,
       <a href="/vita">Vita</a>
       <a href="/research">Research</a>
       <a href="/outreach">Outreach</a>
+      <a href="/writing">Writing</a>
     </nav>
   </div>
 </div>
