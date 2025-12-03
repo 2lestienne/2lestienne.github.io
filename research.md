@@ -66,7 +66,7 @@ layout: default
   .research-overlay {
     position: absolute;
     inset: 0;
-    background: rgba(246,239,230,0.78); /* beige semi-transparent */
+    background: rgba(246,239,230,0.60); /* beige semi-transparent */
     backdrop-filter: blur(0.5px);          /* très léger flou */
     z-index: 1;
   }
