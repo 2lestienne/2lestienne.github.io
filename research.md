@@ -67,7 +67,7 @@ layout: default
     position: absolute;
     inset: 0;
     background: rgba(246,239,230,0.78); /* beige semi-transparent */
-    backdrop-filter: blur(2px);          /* très léger flou */
+    backdrop-filter: blur(0.5px);          /* très léger flou */
     z-index: 1;
   }
 
