@@ -1,139 +1,96 @@
 ---
-title: Research
+title: "Research"
 layout: default
 ---
 
-
 <style>
-  /* neutralise les marges du layout Jekyll */
-  body > *:first-child {
-    margin-top: 0 !important;
-    padding-top: 0 !important;
-  }
-
   html, body {
     margin: 0;
     padding: 0;
   }
-
-  .page-content,
-  .wrapper,
-  .site,
-  .site-main,
-  .post-content,
-  .home {
-    background: transparent !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    max-width: none !important;
-  }
-
-    /* ⛔ cache le header du thème (la barre avec ton nom en bleu) */
-/* Désactive complètement le header du thème GitHub/Jekyll sur cette page */
-header.site-header,
-.site-header,
-.site-header *,
-.site-title,
-.site-title:link,
-.site-title:visited {
-  display: none !important;
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-
-
   body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: #f6efe6;
     line-height: 1.6;
-    background:#f6efe6;
-    color: #222222;
+    color: #222;
   }
 
-  /* ==== même TOP BAR que sur l'index ==== */
-
+  /* TOP BAR — identique à index */
   .top-bar {
-    position: relative;              /* ici, pas au-dessus d'une cover */
+    position: absolute;
     top: 0;
     left: 50%;
     right: 50%;
     width: 100vw;
     margin-left: -50vw;
     margin-right: -50vw;
-    z-index: 30;
-
     background: rgba(246,239,230,0.92);
     border-bottom: 1px solid #e0d4c5;
-    box-sizing: border-box;
     padding: 0.6rem 0;
+    z-index: 30;
   }
-
   .top-bar-inner {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: auto;
     padding: 0 1.2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-
   .site-name {
     font-size: 1.2rem;
     font-weight: 600;
     color: #5d3a23;
     margin: 0;
   }
-
   .site-nav a {
     margin-left: 1rem;
     text-decoration: none;
     color: #5d3a23;
     font-weight: 500;
   }
-
   .site-nav a:hover {
     text-decoration: underline;
   }
 
-  /* ==== contenu Vita ==== */
+  /* SECTION RESEARCH AVEC IMAGE DE FOND */
+  .research-section {
+    position: relative;
+    background-image: url('map_transparent.png'); /* <-- ton image */
+    background-size: cover;
+    background-position: center;
+    padding: 6rem 1.5rem 4rem 1.5rem;
+    margin-top: 3.5rem; /* pour dégager la top bar */
+  }
 
-  .vita-content {
+  .research-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(246,239,230,0.78); /* beige semi-transparent */
+    backdrop-filter: blur(2px);          /* très léger flou */
+    z-index: 1;
+  }
+
+  .research-text {
+    position: relative;
+    z-index: 2;
     max-width: 900px;
-    margin: 2rem auto 3rem auto;
-    padding: 0 1rem 3rem 1rem;
+    margin: auto;
+    background: transparent;
+    padding: 1rem 0;
   }
 
-  .vita-content h1,
-  .vita-content h2,
-  .vita-content h3 {
-    color:#5d3a23;
+  /* TITRES */
+  h1, h2, h3 {
+    color: #5d3a23;
+    margin-top: 1.5rem;
   }
-
-.research-image-block img {
-  width: 75%;
-  max-width: 700px;
-  display: block;
-  margin: 2rem auto 0 auto;
-  border: none;
-  box-shadow: none;
-  background: none;
-  border-radius: 0;
-  padding: 0;
-}
-
-.research-image-block .caption {
-  font-size: 0.85rem;
-  color: #5d3a23;
-  margin-top: 0.5rem;
-  font-style: italic;
-}
 
 </style>
 
 <div class="top-bar">
   <div class="top-bar-inner">
     <div class="site-name">Etienne de L'Estoile</div>
-
     <nav class="site-nav">
       <a href="/">About me</a>
       <a href="/vita">Vita</a>
@@ -144,47 +101,44 @@ header.site-header,
   </div>
 </div>
 
-<div class="vita-content" markdown="1">
+<!-- SECTION AVEC L'IMAGE EN FOND -->
+<div class="research-section">
+  <div class="research-overlay"></div>
+
+  <div class="research-text" markdown="1">
+
 # Research
 
-
-<div class="research-image-block">
-  <img src="/map_transparent.png" alt="Paris flood probability map">
-  <p class="caption">
-    Exposure of buildings to flood scenarios in central Paris (Digital Twin model).
-  </p>
-</div>
-
-## Publications 
-- **[Digital twins for bridging climate data gaps: from flood hazards to firms’ physical assets to banking risks](https://www.bis.org/ifc/publ/ifcb63_10.pdf){:target="_blank"}** (2025) – With [Lisa Kerdelhué](https://www.banque-france.fr/fr/lisa-kerdelhue){:target="_blank"} and Thierry Verdier
-
-## Working Papers
-
-- **[Who Takes the Land? Quantifying the Use of Built-Up Land by French Economic Sectors to Assess Their Vulnerability to the ‘No Net Land Take’ Policy](https://www.banque-france.fr/en/publications-and-statistics/publications/who-takes-land-quantifying-use-built-land-french-economic-sectors-assess-their-vulnerability-no-net){:target="_blank"}** (2024) – With [Mathilde Salin](https://www.banque-france.fr/fr/mathilde-salin){:target="_blank"}
-<p style="font-size:0.9rem;">
-We construct the first sector-level accounts of built-up land use and land take in France (2008–2021), combining geospatial and administrative microdata on firms. We find that economic sectors have highly unequal land footprints, revealing differentiated vulnerabilities to the “no net land take” policy.
-</p>
-
-
-- **[Container or Content: from flood hazards on firms’ physical assets to credit risks](https://www.banque-france.fr/en/publications-and-statistics/publications/who-takes-land-quantifying-use-built-land-french-economic-sectors-assess-their-vulnerability-no-net){:target="_blank"}** (2025) – With [Lisa Kerdelhué](https://www.banque-france.fr/fr/lisa-kerdelhue){:target="_blank"} and Thierry Verdier  
-<p style="font-size:0.9rem;">
-  Development of a multi-country Digital Twin integrating physical hazard maps, firm-level financial statements, and real-estate exposures to quantify damages and solvency effects for firms and banks. 
-</p>
-
+My work focuses on the empirical modelling of **climate risks**, **physical hazards**,  
+and **macro-financial stability**, using high-resolution spatial data, firm-level microdata,  
+and geospatial Digital Twin architectures.
 
 ---
 
-## Selected Research Projects
+## Working Papers
 
-- **Commercial Property Price Indices for France**
-<p style="font-size:0.9rem;">
-Construction of the first public transaction-based commercial real estate indices for France using millions of DV3F property transactions and hedonic modelling. The project sheds light on price dynamics, non-prime segments, and financial stability implications.
-</p>
+- **Who Takes the Land?**  
+  Quantifying built-up land use and land-take by French economic sectors (2008–2021).
 
-- **REITs and natural catastrophes**
+- **Container or Content: Flood Hazards and Credit Risk**  
+  A multi-country Digital Twin linking physical hazard maps, real estate assets,  
+  and firm-balance-sheet data.
 
-- **Natural catastrophes and loan standards**
+---
 
+## Research Projects
 
+### Climate–Macro Digital Twin
+A scalable system combining hazard maps, exposure data, and financial networks  
+to assess climate-related solvency impacts.
 
+### Commercial Real Estate Indices for France
+Hedonic transaction-based indices documenting CRE price trends and  
+non-prime market dynamics.
 
+### Land-Use & Land-Take Accounts
+Geospatial accounts for all French economic sectors, informing  
+“No Net Land Take” policies.
+
+  </div>
+</div>
