@@ -109,16 +109,16 @@ header.site-header,
     color:#5d3a23;
   }
 
-  .research-image-block {
-  margin: 2rem 0;
-  text-align: center;
-}
-
 .research-image-block img {
-  width: 100%;
-  max-width: 900px;
-  border-radius: 6px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  width: 75%;
+  max-width: 700px;
+  display: block;
+  margin: 2rem auto 0 auto;
+  border: none;
+  box-shadow: none;
+  background: none;
+  border-radius: 0;
+  padding: 0;
 }
 
 .research-image-block .caption {
